@@ -20,3 +20,12 @@ git remote add origin $(gh repo view dockercomposenginx --json url | jq -r '.url
 git remote -v # show the remote url of the project
 
 ```
+
+
+## Doker compose related commands
+
+```bash
+
+docker compose config # validate the docker compose file
+
+```
