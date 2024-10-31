@@ -2,7 +2,7 @@
 
 # This script is used to push the code to the remote repository
 
-message = "$1" #commit message when pushing the code to the remote repository
+message="$1" #commit message when pushing the code to the remote repository
 
 if [ -z "$message" ]; then
     # echo "Please provide a commit message"
