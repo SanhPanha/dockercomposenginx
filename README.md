@@ -27,5 +27,13 @@ git remote -v # show the remote url of the project
 ```bash
 
 docker compose config # validate the docker compose file
+docker compose config --services # show the services in the docker compose file
+
+docker compose down # stop the services
+docker compose down --volumes or -v # stop the services and remove the volumes
+
+
+
+
 
 ```

@@ -13,4 +13,3 @@ fi
 git add .
 git commit -m "$message"
 git push -u origin "$(git branch --show-current)"
- 
